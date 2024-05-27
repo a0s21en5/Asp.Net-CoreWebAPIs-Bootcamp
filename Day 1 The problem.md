@@ -4,15 +4,16 @@
 
 - **Duplicate Logic for Each Application**
 
-  - In all applications, there exists some business logic. If you call your database directly from the website, Android application, and iOS application, you'll need to rewrite your business logic repeatedly. This leads to code duplication.
+  - In all the application, we have some business logic. if you will call your database directly from the website and android application and the iOS application, then you need to write your business logic again and again. And this will duplicate your code.
 
 - **Error-Prone Code (Business Logic Is Written in Each Application)**
 
-  - The code becomes error-prone because the business logic is duplicated across all applications. Consequently, there's a risk of missing some logic in certain applications, resulting in additional errors in your code.
+  - The Error Prone Code because the business logic is written in all the application. so there are chances that you might miss some logic in some application and this will add more errors in yours code.
 
 - **Some Front-End Frameworks Cannot Communicate Directly with Databases**
 
-  - For instance, if you intend to build your website using the Angular framework, remember that Angular is a front-end framework that cannot directly interact with databases. Therefore, frameworks of this nature cannot be used in situations where the website needs to interact directly with the database.
+  - suppose we want to create your website by using angular framework then remember the ANGULAR is a front-end framework and this framework can not interact with database directly. so in this situation where the website will interact with the database directly , you cannot use these type of frameworks.
 
 - **Difficult to Maintain**
-  - This structural approach is challenging to maintain because code is duplicated across multiple applications. Any improvements or changes made in one application need to be replicated across all applications, making maintenance laborious.
+
+  - This type of structure is hard to maintain because we have written the code again and again means if we need to improve something in one application, then we need to do the same thing in all application and this is very hard to maintain, etc..
