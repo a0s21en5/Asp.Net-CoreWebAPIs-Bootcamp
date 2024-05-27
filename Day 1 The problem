@@ -3,6 +3,9 @@
 # Problems if not using Web API
 
 - Duplicate logic for each application.
+    - In all the application, we have some business logic. if you will call your database directly from the website and android application and the iOS application, then you need to write your business logic again and again. And this will duplicate your code.
+
 - Error Prone Code(Business logic is written in each application.)
+    - 
 - Some front end frameworks can not communicate with database directly.
 - Hard to Maintain.
