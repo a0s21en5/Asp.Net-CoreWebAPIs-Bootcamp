@@ -1,0 +1,8 @@
+# Need of Web API
+
+# Problems if not using Web API
+
+- Duplicate logic for each application.
+- Error Prone Code(Business logic is written in each application.)
+- Some front end frameworks can not communicate with database directly.
+- Hard to Maintain.
