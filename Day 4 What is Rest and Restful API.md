@@ -2,14 +2,11 @@
 
 - **REST** stands for *REpresentation State Transfer*.
 
-REST is a combination of couple of principles or a set of principles that must be followed by Web a API project in order to say, RESTful Web API.
+REST is a combination of a couple of principles or a set of principles that must be followed by a Web API project in order to say it's RESTful.
 
-These are common standard guidelines that needs to be followed by the Web API project.
+These are common standard guidelines that need to be followed by the Web API project:
 
 - URL structure
-
 - HTTP verbs
-
 - Status codes
-
 - Stateless, etc.
