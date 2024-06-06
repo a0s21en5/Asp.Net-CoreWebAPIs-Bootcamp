@@ -1,5 +1,7 @@
 # HTTP Verbs/HTTP methods
 
+HTTP verbs, or HTTP methods, are like instructions for the internet. When you visit a website, your browser sends a request to the server, and it uses these methods to tell the server what you want to do. It's like asking for something in different ways.
+
 ## GET
 
 - The GET method is used to retrieve data.
