@@ -29,3 +29,7 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 7
 
 - HTTP Verbs or HTTP methods
+
+## Day 8 
+
+- Status Code and their categories
