@@ -33,3 +33,7 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 8 
 
 - Status Code and their categories
+
+## Day 9 
+
+- Frequently Used Status Codes
