@@ -30,10 +30,62 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 
 - HTTP Verbs or HTTP methods
 
-## Day 8 
+## Day 8
 
 - Status Code and their categories
 
-## Day 9 
+## Day 9
 
 - Frequently Used Status Codes
+
+## Day 10
+
+- List of all software required for Web API development
+
+## Day 11
+
+- Install the Dot Net Core framework and verify the installation
+
+## Day 12
+
+- Install Visual Studio 2019 and 20222 Visual Studio Code
+
+## Day 13
+
+- Install SQL Server
+
+## Day 14
+
+- Install SQL Server Management Studio
+
+## Day 15
+
+- Install Postman and Apidog (Client tool for testing Web APIs)
+
+## Day 16
+
+- Create ASP.NET Core 5.0 Web API Project using CLI
+
+## Day 17
+
+- ASP.NET Core Web API Project files
+
+## Day 18
+
+- launchSettings.json file
+
+## Day 19
+
+- csproj (Project file)
+
+## Day 20
+
+- Create a Dot Net Core Console application using Visual Studio
+
+## Day 21
+
+- Update the csproj file
+
+## Day 22
+
+- Add a Default Web Host Builder
