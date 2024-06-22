@@ -37,6 +37,11 @@ namespace ConsoleToWebAPI
                 {
                     await context.Response.WriteAsync("Hi from New Web API App");
                 });
+
+                endpoints.MapGet("/Home", async context =>
+                {
+                    await context.Response.WriteAsync("Hi from New Web API App in Home Page");
+                });
             });
         }
     }
