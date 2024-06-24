@@ -17,3 +17,55 @@ In the context of middleware, the `Next()` method is typically used inside middl
 The `Map()` method in ASP.NET Core middleware is used to map a middleware component to a specific request path or segment of the URL. This method allows developers to define where in the URL space a particular middleware should be invoked. For example, `Map("/admin", ...)`, will ensure that the following middleware only processes requests that match the `/admin` path prefix.
 
 These methods (`Run()`, `Use()`, `Next()`, and `Map()`) are essential in configuring the middleware pipeline of an ASP.NET Core application, determining how requests are handled, and responses are generated based on the sequence and conditions defined within each middleware component.
+
+```C#
+public class Startup
+{
+    public void Configure(IApplicationBuilder app)
+    {
+        app.Use(async (context, next) =>
+        {
+            // Middleware 1: Use method
+            await context.Response.WriteAsync("Hello from Middleware 1 (before)!\n");
+
+            await next();
+
+            await context.Response.WriteAsync("Hello from Middleware 1 (after)!\n");
+        });
+
+        app.Use(async (context, next) =>
+        {
+            // Middleware 2: Use method
+            await context.Response.WriteAsync("Hello from Middleware 2 (before)!\n");
+
+            await next();
+
+            await context.Response.WriteAsync("Hello from Middleware 2 (after)!\n");
+        });
+
+        app.Map("/admin", adminApp =>
+        {
+            adminApp.Use(async (context, next) =>
+            {
+                // Middleware specific to /admin route
+                await context.Response.WriteAsync("Hello from Admin Middleware!\n");
+            });
+        });
+
+        app.Map("/api", apiApp =>
+        {
+            apiApp.Use(async (context, next) =>
+            {
+                // Middleware specific to /api route
+                await context.Response.WriteAsync("Hello from API Middleware!\n");
+            });
+        });
+
+        app.Run(async context =>
+        {
+            // Run method: Final middleware
+            await context.Response.WriteAsync("Hello from Run middleware!\n");
+        });
+    }
+}
+```
