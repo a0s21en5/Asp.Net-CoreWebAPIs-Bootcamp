@@ -89,3 +89,31 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 22
 
 - Add a Default Web Host Builder
+
+## Day 23
+
+- Add a Default Web Host Builder
+
+## Day 24
+
+- Setup the Startup class (Configure and ConfigureServices method)
+
+## Day 25
+
+- Setup the default route to access a resource
+
+## Day 26
+
+- Inject Web API services using AddControllers method
+
+## Day 27
+
+- Add a new controller in the application
+
+## Day 28
+
+- What is Middleware and HTTP Request Pipeline
+
+## Day 29
+
+- Working with Run(), Map(), Use() and Next() method
