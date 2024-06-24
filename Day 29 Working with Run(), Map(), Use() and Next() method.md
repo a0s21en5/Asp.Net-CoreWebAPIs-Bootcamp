@@ -18,6 +18,8 @@ The `Map()` method in ASP.NET Core middleware is used to map a middleware compon
 
 These methods (`Run()`, `Use()`, `Next()`, and `Map()`) are essential in configuring the middleware pipeline of an ASP.NET Core application, determining how requests are handled, and responses are generated based on the sequence and conditions defined within each middleware component.
 
+## Here's how you might configure these middleware components in your `Startup.cs` class
+
 ```C#
 public class Startup
 {
