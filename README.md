@@ -117,3 +117,7 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 29
 
 - Working with Run(), Map(), Use() and Next() method
+
+## Day 30
+
+- Create Custom Middleware In A Separate File
