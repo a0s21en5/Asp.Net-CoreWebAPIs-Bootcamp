@@ -125,3 +125,7 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 31
 
 - What is Routing
+
+## Day 32
+
+- Best Practices for RESTful URLs for CRUD operations
