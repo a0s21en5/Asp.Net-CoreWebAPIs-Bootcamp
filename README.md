@@ -129,3 +129,11 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 32
 
 - Best Practices for RESTful URLs for CRUD operations
+
+## Day 33
+
+- Action Method return types
+
+## Day 34
+
+- Format response with status code
