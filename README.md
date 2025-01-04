@@ -137,3 +137,19 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 34
 
 - Format response with status code
+
+## Day 35
+
+- Model Binder
+
+## Day 36
+
+- Working with Services without using Dependency Injection
+
+## Day 37
+
+- Dependency Injection (DI)
+
+## Day 38
+
+- Resolve the Service Dependency Directly in the Action Method
