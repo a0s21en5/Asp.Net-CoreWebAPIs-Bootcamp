@@ -153,3 +153,7 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 38
 
 - Resolve the Service Dependency Directly in the Action Method
+
+## Day 39
+
+- Working with Entity Framework Core
