@@ -157,3 +157,7 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 39
 
 - Working with Entity Framework Core
+
+## Day 40
+
+- Setup the DbContext Class and Database Connection String
