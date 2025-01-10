@@ -161,3 +161,7 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 40
 
 - Setup the DbContext Class and Database Connection String
+
+## Day 41
+
+- Read connection string from appsettings.json file
