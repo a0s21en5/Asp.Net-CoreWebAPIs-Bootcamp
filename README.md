@@ -165,3 +165,7 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 41
 
 - Read connection string from appsettings.json file
+
+## Day 42
+
+- Automapper
