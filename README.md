@@ -169,3 +169,7 @@ ASP.NET Core Web API: Powerful framework by Microsoft for RESTful APIs, crucial 
 ## Day 42
 
 - Automapper
+
+## Day 43
+
+- Dapper
